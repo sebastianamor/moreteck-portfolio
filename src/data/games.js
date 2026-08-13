@@ -1,0 +1,55 @@
+const games = [
+  {
+    id: 1,
+    title: "PongPro",
+    description:
+      "A Pong-style game developed with Love2D as part of my exploration into game development.",
+    technology: "Love2D",
+    year: "2026",
+    status: "Prototype",
+    image: "/images/games/pongpro.png",
+    link: "#",
+    github: "#"
+  },
+
+  {
+    id: 2,
+    title: "Saltador",
+    description:
+      "A completed jumping game developed with Love2D.",
+    technology: "Love2D",
+    year: "2026",
+    status: "Completed",
+    image: "/images/games/saltador.png",
+    link: "#",
+    github: "#"
+  },
+
+  {
+    id: 3,
+    title: "Banana Time",
+    description:
+      "A game project created with Scratch as part of my game development experiments.",
+    technology: "Scratch",
+    year: "2026",
+    status: "Completed",
+    image: "/images/games/banana-time.png",
+    link: "#",
+    github: "#"
+  },
+
+  {
+    id: 4,
+    title: "Breakout Odyssey",
+    description:
+      "An ongoing game development project created with Love2D. This is a work in progress.",
+    technology: "Love2D",
+    year: "2026",
+    status: "In Development",
+    image: "/images/games/brinck-odisea.png",
+    link: "#",
+    github: "#"
+  }
+];
+
+export default games;

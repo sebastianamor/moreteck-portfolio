@@ -1,0 +1,53 @@
+.mt-button{
+
+padding:14px 32px;
+
+border-radius:12px;
+
+border:1px solid transparent;
+
+background:#38bdf8;
+
+color:#020617;
+
+font-size:16px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.3s;
+
+margin:10px;
+
+}
+
+
+.mt-button:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 10px 30px rgba(56,189,248,.35);
+
+}
+
+
+.mt-button.secondary{
+
+background:transparent;
+
+color:#38bdf8;
+
+border:1px solid #38bdf8;
+
+}
+
+
+.mt-button.secondary:hover{
+
+background:#38bdf8;
+
+color:#020617;
+
+}

@@ -1,0 +1,412 @@
+.game-lab {
+
+  padding: 120px 8%;
+
+  background:
+    linear-gradient(
+      180deg,
+      #050816 0%,
+      #080d1f 100%
+    );
+
+  scroll-margin-top: 100px;
+
+}
+
+
+/* HEADER */
+
+.game-lab-header {
+
+  max-width: 750px;
+
+  margin: 0 auto 70px;
+
+  text-align: center;
+
+}
+
+
+.game-terminal {
+
+  display: inline-block;
+
+  margin-bottom: 15px;
+
+  color: #38bdf8;
+
+  font-family: monospace;
+
+  font-size: 14px;
+
+  letter-spacing: 2px;
+
+}
+
+
+.game-lab-header h2 {
+
+  margin: 10px 0;
+
+  font-size: clamp(36px, 5vw, 52px);
+
+  color: #f8fafc;
+
+}
+
+
+.game-lab-header p {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  color: #94a3b8;
+
+  line-height: 1.7;
+
+  font-size: 18px;
+
+}
+
+
+/* GRID */
+
+.games-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    );
+
+  gap: 35px;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+}
+
+
+/* CARD */
+
+.game-card {
+
+  overflow: hidden;
+
+  background: #0f172a;
+
+  border: 1px solid
+    rgba(56, 189, 248, .15);
+
+  border-radius: 22px;
+
+  transition: .35s;
+
+}
+
+
+.game-card:hover {
+
+  transform: translateY(-10px);
+
+  border-color: #38bdf8;
+
+  box-shadow:
+    0 20px 50px
+    rgba(56, 189, 248, .18);
+
+}
+
+
+/* CARD TOP */
+
+.game-card-top {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 20px;
+
+  background: #111827;
+
+}
+
+
+.game-number {
+
+  color: #64748b;
+
+  font-family: monospace;
+
+}
+
+
+.game-status {
+
+  color: #38bdf8;
+
+  font-family: monospace;
+
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+}
+
+
+/* PREVIEW */
+
+.game-preview {
+
+  position: relative;
+
+  height: 220px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  overflow: hidden;
+
+  background:
+
+    radial-gradient(
+      circle,
+      rgba(56,189,248,.12),
+      transparent 65%
+    ),
+
+    #020617;
+
+}
+
+
+.game-controller {
+
+  font-size: 75px;
+
+  filter:
+    drop-shadow(
+      0 0 20px
+      rgba(56,189,248,.5)
+    );
+
+  transition: .4s;
+
+}
+
+
+.game-card:hover
+.game-controller {
+
+  transform:
+    scale(1.15)
+    rotate(-5deg);
+
+}
+
+
+/* SCAN EFFECT */
+
+.scan-line {
+
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 2px;
+
+  background: #38bdf8;
+
+  opacity: .2;
+
+  animation: scan 3s linear infinite;
+
+}
+
+
+@keyframes scan {
+
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+
+}
+
+
+/* CONTENT */
+
+.game-content {
+
+  padding: 25px;
+
+}
+
+
+.game-content h3 {
+
+  margin: 0 0 12px;
+
+  color: #f8fafc;
+
+  font-size: 24px;
+
+}
+
+
+.game-content p {
+
+  color: #94a3b8;
+
+  line-height: 1.6;
+
+}
+
+
+/* INFO */
+
+.game-info {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+  margin: 20px 0;
+
+  color: #cbd5e1;
+
+  font-size: 13px;
+
+}
+
+
+/* PLAY BUTTON */
+
+.play-button {
+
+  display: inline-block;
+
+  padding: 10px 18px;
+
+  border: 1px solid #38bdf8;
+
+  border-radius: 10px;
+
+  color: #38bdf8;
+
+  text-decoration: none;
+
+  font-family: monospace;
+
+  font-weight: bold;
+
+  transition: .3s;
+
+}
+
+
+.play-button:hover {
+
+  background: #38bdf8;
+
+  color: #020617;
+
+  box-shadow:
+    0 0 20px
+    rgba(56,189,248,.4);
+
+}
+
+.game-image {
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition: .4s;
+
+}
+
+
+.game-card:hover .game-image {
+
+  transform: scale(1.08);
+
+}
+
+.featured-game {
+
+  border-color:
+    rgba(56, 189, 248, .45);
+
+  background:
+    linear-gradient(
+      145deg,
+      #111827,
+      #0b162d
+    );
+
+  box-shadow:
+    0 0 30px
+    rgba(56, 189, 248, .08);
+
+}
+
+
+.featured-game::before {
+
+  content: "CURRENT PROJECT";
+
+  position: absolute;
+
+  top: 15px;
+  right: 15px;
+
+  padding: 5px 10px;
+
+  border-radius: 8px;
+
+  background: #38bdf8;
+
+  color: #020617;
+
+  font-family: monospace;
+
+  font-size: 10px;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+}
+
+
+.featured-game:hover {
+
+  border-color: #38bdf8;
+
+  box-shadow:
+    0 20px 60px
+    rgba(56, 189, 248, .25);
+
+}

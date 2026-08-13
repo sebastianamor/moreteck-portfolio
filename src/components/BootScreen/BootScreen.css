@@ -1,0 +1,62 @@
+.boot-screen{
+
+height:100vh;
+
+width:100%;
+
+background:#050816;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-family:
+"Courier New",
+monospace;
+
+color:#38bdf8;
+
+}
+
+
+.terminal{
+
+width:500px;
+
+padding:30px;
+
+background:#0f172a;
+
+border-radius:15px;
+
+border:1px solid rgba(56,189,248,.3);
+
+box-shadow:
+
+0 0 40px rgba(56,189,248,.2);
+
+}
+
+
+.terminal p{
+
+margin:12px 0;
+
+font-size:18px;
+
+}
+
+
+.terminal p:last-child{
+
+font-size:40px;
+
+font-weight:bold;
+
+text-align:center;
+
+margin-top:30px;
+
+}
