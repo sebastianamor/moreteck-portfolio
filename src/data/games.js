@@ -7,7 +7,7 @@ const games = [
     technology: "Love2D",
     year: "2026",
     status: "Prototype",
-    image: "/images/games/pongpro.png",
+    image: `${import.meta.env.BASE_URL}images/games/pongpro.png`,
     link: "#",
     github: "#"
   },
@@ -20,7 +20,7 @@ const games = [
     technology: "Love2D",
     year: "2026",
     status: "Completed",
-    image: "/images/games/saltador.png",
+    image: `${import.meta.env.BASE_URL}images/games/saltador.png`,
     link: "#",
     github: "#"
   },
@@ -33,7 +33,7 @@ const games = [
     technology: "Scratch",
     year: "2026",
     status: "Completed",
-    image: "/images/games/banana-time.png",
+    image: `${import.meta.env.BASE_URL}images/games/banana-time.png`,
     link: "#",
     github: "#"
   },
@@ -46,7 +46,7 @@ const games = [
     technology: "Love2D",
     year: "2026",
     status: "In Development",
-    image: "/images/games/brinck-odisea.png",
+    image: `${import.meta.env.BASE_URL}images/games/brinck-odisea.png`,
     link: "#",
     github: "#"
   }
