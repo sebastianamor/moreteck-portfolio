@@ -1,16 +1,16 @@
 const games = [
-  {
-    id: 1,
-    title: "PongPro",
-    description:
-      "A Pong-style game developed with Love2D as part of my exploration into game development.",
-    technology: "Love2D",
-    year: "2026",
-    status: "Prototype",
-    image: `${import.meta.env.BASE_URL}images/games/pongpro.png`,
-    link: "#",
-    github: "#"
-  },
+ {
+  id: 1,
+  title: "PongPro",
+  description:
+    "A Pong-style game developed with Love2D as part of my exploration into game development.",
+  technology: "Love2D",
+  year: "2026",
+  status: "Completed",
+  image: `${import.meta.env.BASE_URL}images/games/pongpro.png`,
+  link: "https://sebastianamor.github.io/pon1/",
+  github: "#"
+},
 
   {
     id: 2,
@@ -34,7 +34,7 @@ const games = [
     year: "2026",
     status: "Completed",
     image: `${import.meta.env.BASE_URL}images/games/banana-time.png`,
-    link: "#",
+    link: "https://scratch.mit.edu/projects/1280849251/",
     github: "#"
   },
 
