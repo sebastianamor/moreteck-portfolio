@@ -7,9 +7,9 @@ function WebLab() {
 
       <div className="web-lab-header">
 
-        <span className="lab-tag">
-          💻 WEB LAB
-        </span>
+    <span className="lab-tag">
+  &gt; WEB_LAB.exe
+</span>
 
         <h2>
           Web Applications & Experiments
@@ -28,37 +28,57 @@ function WebLab() {
         {projects.map((project) => (
 
           <article
-            className="project-card"
-            key={project.id}
-          >
+  className="project-card"
+  key={project.id}
+>
 
-            <span className="project-category">
-              {project.category}
-            </span>
+  <div className="project-card-top">
 
-            <h3>
-              {project.title}
-            </h3>
+    <span className="project-number">
+      #{String(project.id).padStart(2, "0")}
+    </span>
 
-            <p>
-              {project.description}
-            </p>
+    <span className="project-category">
+      {project.category}
+    </span>
 
-            <div className="technologies">
+  </div>
 
-              {project.technologies.map((technology) => (
-                <span key={technology}>
-                  {technology}
-                </span>
-              ))}
+  <h3>
+    {project.title}
+  </h3>
 
-            </div>
+  <p>
+    {project.description}
+  </p>
 
-            <a href={project.link}>
-              View Project →
-            </a>
+  <div className="technologies">
 
-          </article>
+    {project.technologies.map((technology) => (
+      <span key={technology}>
+        {technology}
+      </span>
+    ))}
+
+  </div>
+
+  <div className="project-footer">
+
+    <span className="project-status">
+      ✓ {project.status}
+    </span>
+
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Project ↗
+    </a>
+
+  </div>
+
+</article>
 
         ))}
 
