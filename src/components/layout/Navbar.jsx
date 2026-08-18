@@ -13,23 +13,27 @@ return(
 
     <nav className="nav-links">
 
-        <a href="#home">
-            Home
-        </a>
+    <a href="#home">
+        Home
+    </a>
 
-        <a href="#labs">
-            Labs
-        </a>
+    <a href="#about">
+        About
+    </a>
 
-        <a href="#journal">
-            Journal
-        </a>
+    <a href="#labs">
+        Labs
+    </a>
 
-        <a href="#contact">
-            Contact
-        </a>
+    <a href="#journal">
+        Journal
+    </a>
 
-    </nav>
+    <a href="#contact">
+        Contact
+    </a>
+
+</nav>
 
 
     <LanguageSelector />
