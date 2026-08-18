@@ -64,9 +64,11 @@ function WebLab() {
 
   <div className="project-footer">
 
-    <span className="project-status">
-      ✓ {project.status}
-    </span>
+  <span className="project-status">
+    ✓ {project.status}
+  </span>
+
+  <div className="project-links">
 
     <a
       href={project.link}
@@ -76,7 +78,19 @@ function WebLab() {
       View Project ↗
     </a>
 
+    {project.github && project.github !== "#" && (
+      <a
+        href={project.github}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub ↗
+      </a>
+    )}
+
   </div>
+
+</div>
 
 </article>
 
