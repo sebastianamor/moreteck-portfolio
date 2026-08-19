@@ -410,3 +410,20 @@
     rgba(56, 189, 248, .25);
 
 }
+
+.game-development,
+.game-unavailable {
+  display: inline-block;
+
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.game-development {
+  color: #f59e0b;
+}
+
+.game-unavailable {
+  color: #64748b;
+}

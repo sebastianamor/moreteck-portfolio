@@ -93,18 +93,20 @@ function GameLab() {
 
               <div className="game-actions">
 
-  {game.status === "Completed" ? (
-    <a
-      href={game.link}
-      className="play-button"
-    >
-      ▶ PLAY
-    </a>
-  ) : (
-    <span className="development-button">
-      🚧 IN DEVELOPMENT
-    </span>
-  )}
+ {game.status === "Completed" && game.link !== "#" ? (
+  <a
+    href={game.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="play-button"
+  >
+    ▶ PLAY
+  </a>
+) : (
+  <span className="game-development">
+    🚧 IN DEVELOPMENT
+  </span>
+)}
 
   {game.github && game.github !== "#" && (
     <a

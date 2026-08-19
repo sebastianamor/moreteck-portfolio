@@ -9,7 +9,7 @@ const games = [
   status: "Completed",
   image: `${import.meta.env.BASE_URL}images/games/pongpro.png`,
   link: "https://sebastianamor.github.io/pon1/",
-  github: "#"
+  github: "https://github.com/sebastianamor"
 },
 
   {

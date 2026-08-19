@@ -27,12 +27,13 @@ const projects = [
     id: 3,
     title: "Osaka Tourism",
     description:
-      "Tourism web application created as part of CS50, focused on exploring Osaka and its attractions.",
-    technologies: ["Python", "Flask", "SQLite", "HTML", "CSS"],
+      "Proyecto desarrollado para CS50 enfocado en turismo y exploración de Osaka.",
+    technologies: ["Python", "Flask", "HTML", "CSS"],
     category: "CS50 Project",
     status: "Completed",
     link: "#",
-    github: "https://github.com/sebastianamor/osaka-turims-"
+    github:
+      "https://github.com/sebastianamor/osaka-turims-/tree/main/osaka_tourism"
   }
 ];
 

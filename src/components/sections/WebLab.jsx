@@ -6,10 +6,9 @@ function WebLab() {
     <section id="web-lab" className="web-lab">
 
       <div className="web-lab-header">
-
-    <span className="lab-tag">
-  &gt; WEB_LAB.exe
-</span>
+        <span className="lab-tag">
+          &gt; WEB_LAB.exe
+        </span>
 
         <h2>
           Web Applications & Experiments
@@ -19,85 +18,70 @@ function WebLab() {
           Projects, experiments and applications
           built during my journey as a developer.
         </p>
-
       </div>
-
 
       <div className="projects-grid">
-
         {projects.map((project) => (
-
           <article
-  className="project-card"
-  key={project.id}
->
+            className="project-card"
+            key={project.id}
+          >
+            <div className="project-card-top">
+              <span className="project-number">
+                #{String(project.id).padStart(2, "0")}
+              </span>
 
-  <div className="project-card-top">
+              <span className="project-category">
+                {project.category}
+              </span>
+            </div>
 
-    <span className="project-number">
-      #{String(project.id).padStart(2, "0")}
-    </span>
+            <h3>
+              {project.title}
+            </h3>
 
-    <span className="project-category">
-      {project.category}
-    </span>
+            <p>
+              {project.description}
+            </p>
 
-  </div>
+            <div className="technologies">
+              {project.technologies.map((technology) => (
+                <span key={technology}>
+                  {technology}
+                </span>
+              ))}
+            </div>
 
-  <h3>
-    {project.title}
-  </h3>
+            <div className="project-footer">
+              <span className="project-status">
+                ✓ {project.status}
+              </span>
 
-  <p>
-    {project.description}
-  </p>
+              <div className="project-links">
+                {project.link !== "#" && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project ↗
+                  </a>
+                )}
 
-  <div className="technologies">
-
-    {project.technologies.map((technology) => (
-      <span key={technology}>
-        {technology}
-      </span>
-    ))}
-
-  </div>
-
-  <div className="project-footer">
-
-  <span className="project-status">
-    ✓ {project.status}
-  </span>
-
-  <div className="project-links">
-
-    <a
-      href={project.link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      View Project ↗
-    </a>
-
-    {project.github && project.github !== "#" && (
-      <a
-        href={project.github}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub ↗
-      </a>
-    )}
-
-  </div>
-
-</div>
-
-</article>
-
+                {project.github !== "#" && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub ↗
+                  </a>
+                )}
+              </div>
+            </div>
+          </article>
         ))}
-
       </div>
-
     </section>
   );
 }

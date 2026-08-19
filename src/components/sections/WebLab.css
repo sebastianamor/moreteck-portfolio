@@ -211,3 +211,45 @@
     flex-wrap: wrap;
   }
 }
+
+.project-footer {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 25px;
+}
+
+.project-links {
+  display: flex;
+
+  gap: 15px;
+
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  color: #38bdf8;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  font-size: 14px;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-status {
+  color: #22c55e;
+
+  font-family: monospace;
+
+  font-size: 13px;
+}
