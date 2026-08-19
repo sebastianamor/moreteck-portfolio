@@ -4,6 +4,7 @@ import ExploreLabs from "../components/sections/ExploreLabs";
 import WebLab from "../components/sections/WebLab";
 import GameLab from "../components/sections/GameLab";
 import Journal from "../components/sections/Journal";
+import Contact from "../components/sections/Contact";
 
 function Home() {
   return (
@@ -19,6 +20,8 @@ function Home() {
       <GameLab />
 
       <Journal />
+
+      <Contact />
     </>
   );
 }
