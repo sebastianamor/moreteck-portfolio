@@ -1,23 +1,26 @@
 import projects from "../../data/projects";
 import "./WebLab.css";
+import { useTranslation } from "react-i18next";
+
 
 function WebLab() {
+
+  const { t } = useTranslation();
   return (
     <section id="web-lab" className="web-lab">
 
       <div className="web-lab-header">
         <span className="lab-tag">
-          &gt; WEB_LAB.exe
-        </span>
+  {t("webLab.tag")}
+</span>
 
-        <h2>
-          Web Applications & Experiments
-        </h2>
+<h2>
+  {t("webLab.title")}
+</h2>
 
-        <p>
-          Projects, experiments and applications
-          built during my journey as a developer.
-        </p>
+<p>
+  {t("webLab.description")}
+</p>
       </div>
 
       <div className="projects-grid">
@@ -64,7 +67,7 @@ function WebLab() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View Project ↗
+                    {t("webLab.viewProject")}
                   </a>
                 )}
 
@@ -74,7 +77,7 @@ function WebLab() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    GitHub ↗
+                    {t("webLab.github")}
                   </a>
                 )}
               </div>

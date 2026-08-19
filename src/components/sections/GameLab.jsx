@@ -1,24 +1,24 @@
 import games from "../../data/games";
 import "./GameLab.css";
+import { useTranslation } from "react-i18next";
 
 function GameLab() {
+  const { t } = useTranslation();
   return (
     <section id="game-lab" className="game-lab">
 
       <div className="game-lab-header">
+<span className="game-terminal">
+  {t("gameLab.tag")}
+</span>
 
-        <span className="game-terminal">
-          &gt; GAME_LAB.exe
-        </span>
+<h2>
+  {t("gameLab.title")}
+</h2>
 
-        <h2>
-          Game Development
-        </h2>
-
-        <p>
-          Games, prototypes and experiments created
-          while exploring the world of game development.
-        </p>
+<p>
+  {t("gameLab.description")}
+</p>
 
       </div>
 
@@ -91,22 +91,22 @@ function GameLab() {
               </div>
 
 
-              <div className="game-actions">
+       <div className="game-actions">
 
- {game.status === "Completed" && game.link !== "#" ? (
-  <a
-    href={game.link}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="play-button"
-  >
-    ▶ PLAY
-  </a>
-) : (
-  <span className="game-development">
-    🚧 IN DEVELOPMENT
-  </span>
-)}
+  {game.status === "Completed" && game.link !== "#" ? (
+    <a
+      href={game.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="play-button"
+    >
+      {t("gameLab.play")}
+    </a>
+  ) : (
+    <span className="game-development">
+      {t("gameLab.inDevelopment")}
+    </span>
+  )}
 
   {game.github && game.github !== "#" && (
     <a
@@ -115,7 +115,7 @@ function GameLab() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      GITHUB ↗
+      {t("webLab.github")}
     </a>
   )}
 

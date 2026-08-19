@@ -253,3 +253,10 @@
 
   font-size: 13px;
 }
+
+.project-coming-soon {
+  color: #64748b;
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: bold;
+}

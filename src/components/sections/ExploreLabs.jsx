@@ -1,5 +1,6 @@
 import "./ExploreLabs.css";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const goToLab = (id) => {
   document.getElementById(id)?.scrollIntoView({
@@ -10,60 +11,83 @@ const goToLab = (id) => {
 const labs = [
   {
     icon: "💻",
-    title: "Web Lab",
-    description: "Web applications and experiments.",
+    title: "labs.web.title",
+    description: "labs.web.description",
     target: "web-lab",
   },
   {
     icon: "🎮",
-    title: "Game Lab",
-    description: "Games and interactive experiments.",
+    title: "labs.game.title",
+    description: "labs.game.description",
     target: "game-lab",
   },
   {
     icon: "🧩",
-    title: "Scratch Lab",
-    description: "Projects created with Scratch.",
+    title: "labs.scratch.title",
+    description: "labs.scratch.description",
     target: "scratch-lab",
   },
   {
     icon: "📝",
-    title: "Dev Journal",
-    description: "Notes from my developer journey.",
+    title: "labs.journal.title",
+    description: "labs.journal.description",
     target: "journal",
   },
 ];
 
 export default function ExploreLabs() {
+
+  const { t } = useTranslation();
+
   return (
     <section id="labs" className="explore">
+
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Explore the Laboratory
+        {t("labs.title")}
       </motion.h2>
 
-      <p className="subtitle">Every lab represents a part of my journey.</p>
+      <p className="subtitle">
+        {t("labs.subtitle")}
+      </p>
 
       <div className="lab-grid">
+
         {labs.map((lab, index) => (
+
           <motion.div
             key={index}
             className="lab-card"
             whileHover={{ y: -10, scale: 1.03 }}
           >
-            <div className="icon">{lab.icon}</div>
 
-            <h3>{lab.title}</h3>
+            <div className="icon">
+              {lab.icon}
+            </div>
 
-            <p>{lab.description}</p>
+            <h3>
+              {t(lab.title)}
+            </h3>
 
-            <button onClick={() => goToLab(lab.target)}>Explore →</button>
+            <p>
+              {t(lab.description)}
+            </p>
+
+            <button
+              onClick={() => goToLab(lab.target)}
+            >
+              {t("labs.explore")}
+            </button>
+
           </motion.div>
+
         ))}
+
       </div>
+
     </section>
   );
 }

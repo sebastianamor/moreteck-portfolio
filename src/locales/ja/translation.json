@@ -1,5 +1,81 @@
 {
   "welcome": "ようこそ",
   "name": "モレイラ セバスチャン",
-  "role": "Web開発者・ゲームクリエイター"
+  "role": "Web開発者・ゲームクリエイター",
+
+  "navbar": {
+    "home": "ホーム",
+    "about": "About",
+    "labs": "Labs",
+    "journal": "開発日誌",
+    "contact": "お問い合わせ"
+  },
+
+  "hero": {
+    "title": "Web開発者・ゲームクリエイター",
+    "description": "Webアプリケーションやゲームを制作しながら、テクノロジーの可能性を探求しています。",
+    "explore": "Labsを見る",
+    "contact": "お問い合わせ"
+  },
+
+  "labs": {
+    "title": "ラボを探索する",
+    "subtitle": "それぞれのラボは、私の開発者としての歩みの一部です.",
+
+    "web": {
+      "title": "Web Lab",
+      "description": "Webアプリケーションと開発実験。"
+    },
+
+    "game": {
+      "title": "Game Lab",
+      "description": "ゲームとインタラクティブな実験。"
+    },
+
+    "scratch": {
+      "title": "Scratch Lab",
+      "description": "Scratchで制作したプロジェクト。"
+    },
+
+    "journal": {
+      "title": "Dev Journal",
+      "description": "開発者としての歩みを記録しています。"
+    },
+
+    "explore": "見る →"
+  },
+
+  "webLab": {
+    "tag": "> WEB_LAB.exe",
+    "title": "Webアプリケーション & 開発実験",
+    "description": "開発者としての歩みの中で制作したプロジェクト、実験、アプリケーションを紹介します。",
+    "viewProject": "プロジェクトを見る ↗",
+    "github": "GitHub ↗",
+    "completed": "完成",
+    "linkSoon": "プロジェクトリンク準備中"
+  },
+
+  "gameLab": {
+    "tag": "> GAME_LAB.exe",
+    "title": "ゲーム開発",
+    "description": "ゲーム開発の世界を探求する中で制作したゲーム、プロトタイプ、実験作品を紹介します。",
+    "play": "▶ PLAY",
+    "inDevelopment": "🚧 開発中",
+    "linkSoon": "◇ PLAYリンク準備中",
+    "completed": "完成"
+  },
+
+  "journal": {
+    "tag": "> DEV_JOURNAL.exe",
+    "title": "Developer Journal",
+    "description": "テクノロジー、開発、そして日々の学びについて記録しています。"
+  },
+
+  "contact": {
+    "tag": "> CONTACT.exe",
+    "title": "お問い合わせ",
+    "description": "プロジェクト、仕事、コラボレーションなどについてお気軽にご連絡ください。",
+    "email": "メール",
+    "github": "GitHub"
+  }
 }

@@ -8,7 +8,8 @@ const projects = [
     category: "Web Application",
     status: "Completed",
     link: "#",
-    github: "#"
+    github: "#",
+    comingSoon: true
   },
 
   {
@@ -20,7 +21,8 @@ const projects = [
     category: "Website",
     status: "Completed",
     link: "#",
-    github: "#"
+    github: "#",
+    comingSoon: true
   },
 
   {
@@ -33,7 +35,8 @@ const projects = [
     status: "Completed",
     link: "#",
     github:
-      "https://github.com/sebastianamor/osaka-turims-/tree/main/osaka_tourism"
+      "https://github.com/sebastianamor/osaka-turims-/tree/main/osaka_tourism",
+    comingSoon: false
   }
 ];
 
