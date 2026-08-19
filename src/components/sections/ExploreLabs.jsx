@@ -36,7 +36,7 @@ const labs = [
 
 export default function ExploreLabs() {
   return (
-    <section className="explore">
+    <section id="labs" className="explore">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
