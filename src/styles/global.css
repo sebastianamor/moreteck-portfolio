@@ -1,386 +1,298 @@
-main{
+/* =========================
+   GLOBAL
+========================= */
 
-padding-top:80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #050816;
+  color: white;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+main {
+  padding-top: 80px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 20px;
+
+  background:
+    radial-gradient(
+      circle at top,
+      #0f172a,
+      #020617
+    );
+}
+
+.logo-code {
+  color: #38bdf8;
+
+  font-size: 48px;
+  font-weight: bold;
+
+  text-shadow:
+    0 0 10px #38bdf8,
+    0 0 30px #38bdf8;
+}
+
+.logo h1 {
+  margin-top: 20px;
+
+  font-size: 70px;
+
+  letter-spacing: 12px;
+}
+
+.logo p {
+  margin-top: 8px;
+
+  color: #94a3b8;
+
+  font-size: 18px;
+}
+
+.hero h2 {
+  margin-top: 70px;
+
+  font-size: 42px;
+}
+
+.hero h3 {
+  margin-top: 20px;
+
+  font-size: 28px;
+
+  color: #38bdf8;
+}
+
+.hero h3 span {
+  color: white;
+}
+
+.hero p {
+  max-width: 600px;
+
+  margin-top: 20px;
+
+  font-size: 20px;
+
+  color: #94a3b8;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+  margin-top: 45px;
+}
+
+.buttons button {
+  background: #38bdf8;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px 35px;
+
+  margin: 10px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+
+  box-shadow:
+    0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.buttons button:hover {
+  transform: translateY(-4px);
+
+  background: #0ea5e9;
+
+  box-shadow:
+    0 0 35px rgba(56, 189, 248, 0.8);
+}
+
+.secondary {
+  background: transparent !important;
+
+  border: 1px solid #38bdf8 !important;
+
+  color: #38bdf8 !important;
+}
+
+
+/* =========================
+   BOOT SCREEN
+========================= */
+
+.boot {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #020617;
+
+  color: #38bdf8;
+
+  font-family: monospace;
+
+  font-size: 24px;
+}
+
+
+/* =========================
+   LANGUAGE SWITCHER
+========================= */
+
+.language-switcher {
+  display: flex;
+
+  gap: 8px;
+}
+
+.language-switcher button {
+  background: transparent;
+
+  border: 1px solid #1e293b;
+
+  color: #cbd5e1;
+
+  padding: 8px 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.language-switcher button:hover {
+  border-color: #38bdf8;
+
+  color: #38bdf8;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  main {
+    padding-top: 70px;
+  }
+
+  .logo-code {
+    font-size: 36px;
+  }
+
+  .logo h1 {
+    font-size: 42px;
+
+    letter-spacing: 7px;
+  }
+
+  .logo p {
+    font-size: 15px;
+  }
+
+  .hero {
+    padding: 30px 20px;
+  }
+
+  .hero h2 {
+    margin-top: 45px;
+
+    font-size: 30px;
+  }
+
+  .hero h3 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    margin-top: 30px;
+  }
+
+  .buttons button {
+    width: 100%;
+
+    max-width: 280px;
+
+    margin: 7px 0;
+  }
 
 }
 
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+/* =========================
+   REDUCED MOTION
+========================= */
 
-body{
+@media (prefers-reduced-motion: reduce) {
 
-  font-family:
-  "Segoe UI",
-  sans-serif;
+  html {
+    scroll-behavior: auto;
+  }
 
-  background:#050816;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
 
-  color:white;
+    animation-iteration-count: 1 !important;
 
-  overflow-x:hidden;
-
-}
-
-#root{
-
-  width:100%;
+    transition-duration: 0.01ms !important;
+  }
 
 }
-
-.hero{
-
-  min-height:100vh;
-
-  display:flex;
-
-  flex-direction:column;
-
-  justify-content:center;
-
-  align-items:center;
-
-  text-align:center;
-
-  padding:20px;
-
-}
-
-.logo-code{
-
-  color:#38bdf8;
-
-  font-size:42px;
-
-  font-weight:bold;
-
-}
-
-.logo h1{
-
-  margin-top:15px;
-
-  font-size:72px;
-
-  letter-spacing:10px;
-
-}
-
-.logo p{
-
-  color:#94a3b8;
-
-  margin-top:8px;
-
-}
-
-.hero h2{
-
-  margin-top:70px;
-
-  font-size:42px;
-
-}
-
-.hero p{
-
-  margin-top:15px;
-
-  color:#cbd5e1;
-
-  font-size:20px;
-
-}
-
-.buttons{
-
-  margin-top:45px;
-
-}
-
-.buttons button{
-
-  background:#38bdf8;
-
-  color:white;
-
-  border:none;
-
-  padding:15px 35px;
-
-  margin:10px;
-
-  border-radius:12px;
-
-  cursor:pointer;
-
-  transition:.3s;
-
-  font-size:18px;
-
-}
-
-.buttons button:hover{
-
-  transform:translateY(-4px);
-
-  background:#0ea5e9;
-
-}
-
-/* NAVBAR */
-
-.navbar{
-
-position:fixed;
-
-top:0;
-
-left:0;
-
-width:100%;
-
-height:80px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
-padding:0 50px;
-
-background:rgba(2,6,23,0.7);
-
-
-border-bottom:1px solid #1e293b;
-
-z-index:100;
-
-}
-
-
-.nav-logo{
-
-color:#38bdf8;
-
-font-size:24px;
-
-font-weight:bold;
-
-}
-
-
-.nav-links{
-
-display:flex;
-
-gap:30px;
-
-}
-
-
-.nav-links a{
-
-color:#cbd5e1;
-
-text-decoration:none;
-
-transition:.3s;
-
-}
-
-
-.nav-links a:hover{
-
-color:#38bdf8;
-
-}
-
-
-/* HERO */
-
-
-.hero{
-
-min-height:100vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:20px;
-
-background:
-
-radial-gradient(
-circle at top,
-#0f172a,
-#020617
-);
-
-}
-
-
-.hero h3{
-
-margin-top:20px;
-
-font-size:28px;
-
-color:#38bdf8;
-
-}
-
-
-.hero h3 span{
-
-color:white;
-
-}
-
-
-.hero p{
-
-max-width:600px;
-
-margin-top:20px;
-
-font-size:20px;
-
-color:#94a3b8;
-
-}
-
-
-/* BOTON SECUNDARIO */
-
-
-.secondary{
-
-background:transparent!important;
-
-border:1px solid #38bdf8!important;
-
-color:#38bdf8!important;
-
-}
-
-.boot{
-
-height:100vh;
-width:100%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-background:#020617;
-
-color:#38bdf8;
-
-font-family:monospace;
-
-font-size:24px;
-
-}
-
-.logo-code{
-
-font-size:48px;
-
-font-weight:bold;
-
-color:#38bdf8;
-
-text-shadow:
-
-0 0 10px #38bdf8,
-0 0 30px #38bdf8;
-
-}
-
-
-.logo h1{
-
-font-size:70px;
-
-letter-spacing:12px;
-
-margin-top:20px;
-
-}
-
-
-.logo p{
-
-color:#94a3b8;
-
-font-size:18px;
-
-}
-
-.buttons button{
-
-box-shadow:
-
-0 0 20px rgba(56,189,248,0.3);
-
-}
-
-
-.buttons button:hover{
-
-box-shadow:
-
-0 0 35px rgba(56,189,248,0.8);
-
-}
-
-.language-switcher{
-
-display:flex;
-
-gap:8px;
-
-}
-
-
-.language-switcher button{
-
-background:transparent;
-
-border:1px solid #1e293b;
-
-color:#cbd5e1;
-
-padding:8px 12px;
-
-border-radius:8px;
-
-cursor:pointer;
-
-transition:.3s;
-
-}
-
-
-.language-switcher button:hover{
-
-border-color:#38bdf8;
-
-color:#38bdf8;
-
-}
-
