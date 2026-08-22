@@ -95,6 +95,57 @@
   "experimentation": "EXPERIMENTATION:",
   "online": "ONLINE",
   "active": "ACTIVE"
+},
+
+"projects": {
+  "status": {
+    "completed": "Completed"
+  },
+
+  "academia": {
+    "title": "国際訴訟アカデミー",
+    "description": "講座や教育コンテンツを提供するWebプラットフォーム。",
+    "category": "Web Application"
+  },
+
+  "fusterland": {
+    "title": "Fusterland Airsoft",
+    "description": "Airsoft関連企業のために開発したWebサイト。",
+    "category": "Website"
+  },
+
+  "osaka": {
+    "title": "Osaka Tourism",
+    "description": "大阪の観光と探索をテーマにCS50のプロジェクトとして開発したWebアプリケーション。",
+    "category": "CS50 Project"
+  }
+},
+
+"games": {
+  "status": {
+    "completed": "Completed",
+    "development": "開発中"
+  },
+
+  "pongpro": {
+    "title": "PongPro",
+    "description": "ゲーム開発への探求の一環としてLove2Dで制作したPongスタイルのゲーム。"
+  },
+
+  "saltador": {
+    "title": "Saltador",
+    "description": "Love2Dで制作した完成済みのジャンプゲーム。"
+  },
+
+  "banana": {
+    "title": "Banana Time",
+    "description": "ゲーム開発の実験の一環としてScratchで制作したゲームプロジェクト。"
+  },
+
+  "brinck": {
+    "title": "Brinck Odisea",
+    "description": "Love2Dで制作しているゲーム開発プロジェクト。現在も開発中です。"
+  }
 }
 
 }

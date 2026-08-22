@@ -35,16 +35,16 @@ function WebLab() {
               </span>
 
               <span className="project-category">
-                {project.category}
+                {t(project.categoryKey)}
               </span>
             </div>
 
             <h3>
-              {project.title}
+              {t(project.titleKey)}
             </h3>
 
             <p>
-              {project.description}
+              {t(project.descriptionKey)}
             </p>
 
             <div className="technologies">
@@ -57,7 +57,7 @@ function WebLab() {
 
             <div className="project-footer">
               <span className="project-status">
-                ✓ {project.status}
+                ✓ {t(project.statusKey)}
               </span>
 
               <div className="project-links">

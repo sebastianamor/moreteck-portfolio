@@ -94,5 +94,55 @@
     "experimentation": "EXPERIMENTACIÓN:",
     "online": "EN LÍNEA",
     "active": "ACTIVO"
+  },
+  "projects": {
+  "status": {
+    "completed": "Completado"
+  },
+
+  "academia": {
+    "title": "Academia Internacional de Litigación",
+    "description": "Plataforma web para cursos y contenidos de formación.",
+    "category": "Aplicación Web"
+  },
+
+  "fusterland": {
+    "title": "Fusterland Airsoft",
+    "description": "Sitio web desarrollado para una empresa relacionada con Airsoft.",
+    "category": "Sitio Web"
+  },
+
+  "osaka": {
+    "title": "Osaka Tourism",
+    "description": "Proyecto desarrollado para CS50 enfocado en el turismo y la exploración de Osaka.",
+    "category": "Proyecto CS50"
   }
+},
+
+"games": {
+  "status": {
+    "completed": "Completado",
+    "development": "En Desarrollo"
+  },
+
+  "pongpro": {
+    "title": "PongPro",
+    "description": "Un juego estilo Pong desarrollado con Love2D como parte de mi exploración en el desarrollo de videojuegos."
+  },
+
+  "saltador": {
+    "title": "Saltador",
+    "description": "Un juego de saltos desarrollado con Love2D y actualmente completado."
+  },
+
+  "banana": {
+    "title": "Banana Time",
+    "description": "Un proyecto de videojuego creado con Scratch como parte de mis experimentos de desarrollo de videojuegos."
+  },
+
+  "brinck": {
+    "title": "Brinck Odisea",
+    "description": "Un proyecto de desarrollo de videojuegos en curso creado con Love2D. Actualmente se encuentra en desarrollo."
+  }
+}
 }

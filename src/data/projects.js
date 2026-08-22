@@ -1,12 +1,11 @@
 const projects = [
   {
     id: 1,
-    title: "Academia Internacional de Litigación",
-    description:
-      "Plataforma web para cursos y contenidos de formación.",
+    titleKey: "projects.academia.title",
+    descriptionKey: "projects.academia.description",
     technologies: ["React", "Node.js", "MongoDB"],
-    category: "Web Application",
-    status: "Completed",
+    categoryKey: "projects.academia.category",
+    statusKey: "projects.status.completed",
     link: "#",
     github: "#",
     comingSoon: true
@@ -14,12 +13,11 @@ const projects = [
 
   {
     id: 2,
-    title: "Fusterland Airsoft",
-    description:
-      "Sitio web desarrollado para una empresa relacionada con Airsoft.",
+    titleKey: "projects.fusterland.title",
+    descriptionKey: "projects.fusterland.description",
     technologies: ["React", "JavaScript", "CSS"],
-    category: "Website",
-    status: "Completed",
+    categoryKey: "projects.fusterland.category",
+    statusKey: "projects.status.completed",
     link: "#",
     github: "#",
     comingSoon: true
@@ -27,12 +25,11 @@ const projects = [
 
   {
     id: 3,
-    title: "Osaka Tourism",
-    description:
-      "Proyecto desarrollado para CS50 enfocado en turismo y exploración de Osaka.",
+    titleKey: "projects.osaka.title",
+    descriptionKey: "projects.osaka.description",
     technologies: ["Python", "Flask", "HTML", "CSS"],
-    category: "CS50 Project",
-    status: "Completed",
+    categoryKey: "projects.osaka.category",
+    statusKey: "projects.status.completed",
     link: "#",
     github:
       "https://github.com/sebastianamor/osaka-turims-/tree/main/osaka_tourism",

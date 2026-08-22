@@ -43,7 +43,7 @@ function GameLab() {
               </span>
 
               <span className="game-status">
-                {game.status}
+                {t(game.statusKey)}
               </span>
 
             </div>
@@ -70,11 +70,11 @@ function GameLab() {
             <div className="game-content">
 
               <h3>
-                {game.title}
+                {t(game.titleKey)}
               </h3>
 
               <p>
-                {game.description}
+                {t(game.descriptionKey)}
               </p>
 
 
@@ -93,7 +93,7 @@ function GameLab() {
 
        <div className="game-actions">
 
-  {game.status === "Completed" && game.link !== "#" ? (
+  {game.statusKey === "games.status.completed" && game.link !== "#" ? (
     <a
       href={game.link}
       target="_blank"
