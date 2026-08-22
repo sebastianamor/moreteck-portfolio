@@ -1,5 +1,98 @@
 {
-"welcome":"Bienvenido",
-"name":"Sebastian Moreira",
-"role":"Desarrollador Web · Creador de Videojuegos"
+  "welcome": "Bienvenido",
+  "name": "Sebastián Moreira",
+  "role": "Desarrollador Web y Creador de Videojuegos",
+
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "labs": "Labs",
+    "journal": "Diario",
+    "contact": "Contacto"
+  },
+
+  "hero": {
+    "role": "Desarrollador • Creador Web • Entusiasta de los Videojuegos",
+    "explore": "Entrar al Developer Lab 🚀",
+    "github": "GitHub"
+  },
+
+  "labs": {
+    "title": "Explora el Laboratorio",
+    "subtitle": "Cada laboratorio representa una parte de mi recorrido.",
+
+    "web": {
+      "title": "Web Lab",
+      "description": "Aplicaciones web y experimentos de desarrollo."
+    },
+
+    "game": {
+      "title": "Game Lab",
+      "description": "Videojuegos y experimentos interactivos."
+    },
+
+    "scratch": {
+      "title": "Scratch Lab",
+      "description": "Proyectos creados con Scratch."
+    },
+
+    "journal": {
+      "title": "Dev Journal",
+      "description": "Notas de mi recorrido como desarrollador."
+    },
+
+    "explore": "Explorar →"
+  },
+
+  "webLab": {
+    "tag": "> WEB_LAB.exe",
+    "title": "Aplicaciones Web & Experimentos",
+    "description": "Proyectos, experimentos y aplicaciones desarrollados durante mi recorrido como desarrollador.",
+    "viewProject": "Ver Proyecto ↗",
+    "github": "GitHub ↗",
+    "completed": "Completado",
+    "linkSoon": "Enlace del proyecto próximamente"
+  },
+
+  "gameLab": {
+    "tag": "> GAME_LAB.exe",
+    "title": "Desarrollo de Videojuegos",
+    "description": "Videojuegos, prototipos y experimentos creados mientras exploro el mundo del desarrollo de videojuegos.",
+    "play": "▶ JUGAR",
+    "inDevelopment": "🚧 EN DESARROLLO",
+    "linkSoon": "◇ ENLACE DE JUEGO PRÓXIMAMENTE",
+    "completed": "Completado"
+  },
+
+  "journal": {
+    "tag": "> DEV_JOURNAL.exe",
+    "title": "Diario del Desarrollador",
+    "description": "Notas, ideas y pensamientos sobre tecnología, desarrollo y todo lo que voy aprendiendo en el camino."
+  },
+
+  "contact": {
+    "tag": "> CONTACT.exe",
+    "title": "Construyamos Algo Juntos",
+    "description": "¿Tienes una idea, un proyecto o simplemente quieres hablar sobre tecnología?",
+    "status": "ESTADO_CONEXIÓN:",
+    "online": " EN LÍNEA",
+    "email": "EMAIL",
+    "sendMessage": "Enviar Mensaje",
+    "waiting": "> esperando_conexión..."
+  },
+
+  "about": {
+    "tag": "> SYSTEM_PROFILE.exe",
+    "title": "Sobre Mí",
+    "description": "Desarrollador, programador y creador de videojuegos explorando la tecnología a través del código.",
+    "paragraph1": "Mi camino en la tecnología comenzó con la curiosidad por entender cómo funcionan las cosas.",
+    "paragraph2": "Con el tiempo, esa curiosidad evolucionó hacia el desarrollo web, la programación y el desarrollo de videojuegos.",
+    "paragraph3": "Hoy desarrollo aplicaciones web, experimento con diferentes tecnologías y creo videojuegos como una forma de seguir aprendiendo.",
+    "systemStatus": "ESTADO DEL SISTEMA:",
+    "webDevelopment": "DESARROLLO WEB:",
+    "gameDevelopment": "DESARROLLO DE VIDEOJUEGOS:",
+    "experimentation": "EXPERIMENTACIÓN:",
+    "online": "EN LÍNEA",
+    "active": "ACTIVO"
+  }
 }

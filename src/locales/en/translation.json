@@ -1,5 +1,98 @@
 {
-"welcome":"Welcome",
-"name":"Sebastian Moreira",
-"role":"Web Developer · Game Creator"
+  "welcome": "Welcome",
+  "name": "Sebastián Moreira",
+  "role": "Web Developer & Game Creator",
+
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "labs": "Labs",
+    "journal": "Journal",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "role": "Developer • Web Creator • Game Enthusiast",
+    "explore": "Enter Developer Lab 🚀",
+    "github": "GitHub"
+  },
+
+  "labs": {
+    "title": "Explore the Laboratory",
+    "subtitle": "Every lab represents a part of my journey.",
+
+    "web": {
+      "title": "Web Lab",
+      "description": "Web applications and development experiments."
+    },
+
+    "game": {
+      "title": "Game Lab",
+      "description": "Games and interactive experiments."
+    },
+
+    "scratch": {
+      "title": "Scratch Lab",
+      "description": "Projects created with Scratch."
+    },
+
+    "journal": {
+      "title": "Dev Journal",
+      "description": "Notes from my journey as a developer."
+    },
+
+    "explore": "Explore →"
+  },
+
+  "webLab": {
+    "tag": "> WEB_LAB.exe",
+    "title": "Web Applications & Experiments",
+    "description": "Projects, experiments and applications built during my journey as a developer.",
+    "viewProject": "View Project ↗",
+    "github": "GitHub ↗",
+    "completed": "Completed",
+    "linkSoon": "Project link coming soon"
+  },
+
+  "gameLab": {
+    "tag": "> GAME_LAB.exe",
+    "title": "Game Development",
+    "description": "Games, prototypes and experiments created while exploring the world of game development.",
+    "play": "▶ PLAY",
+    "inDevelopment": "🚧 IN DEVELOPMENT",
+    "linkSoon": "◇ PLAY LINK SOON",
+    "completed": "Completed"
+  },
+
+  "journal": {
+    "tag": "> DEV_JOURNAL.exe",
+    "title": "Developer Journal",
+    "description": "Notes, ideas and thoughts about technology, development and the things I learn along the way."
+  },
+
+  "contact": {
+    "tag": "> CONTACT.exe",
+    "title": "Let's Build Something",
+    "description": "Have an idea, a project or just want to talk about technology?",
+    "status": "CONNECTION_STATUS:",
+    "online": " ONLINE",
+    "email": "EMAIL",
+    "sendMessage": "Send Message",
+    "waiting": "> awaiting_connection..."
+  },
+
+  "about": {
+    "tag": "> SYSTEM_PROFILE.exe",
+    "title": "About Me",
+    "description": "Developer, programmer and game creator exploring technology through code.",
+    "paragraph1": "My journey into technology started with curiosity about how things work.",
+    "paragraph2": "Over time, that curiosity evolved into web development, programming and game development.",
+    "paragraph3": "Today I build web applications, experiment with different technologies and create games as a way to keep learning.",
+    "systemStatus": "SYSTEM STATUS:",
+    "webDevelopment": "WEB DEVELOPMENT:",
+    "gameDevelopment": "GAME DEVELOPMENT:",
+    "experimentation": "EXPERIMENTATION:",
+    "online": "ONLINE",
+    "active": "ACTIVE"
+  }
 }
