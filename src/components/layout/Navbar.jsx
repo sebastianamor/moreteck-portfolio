@@ -1,48 +1,47 @@
 import Logo from "../common/Logo";
 import LanguageSelector from "../common/LanguageSelector";
+import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 
+function Navbar() {
 
-function Navbar(){
+  const { t } = useTranslation();
 
-return(
+  return (
 
-<header className="navbar">
+    <header className="navbar">
 
-    <Logo />
+      <Logo />
 
-    <nav className="nav-links">
+      <nav className="nav-links">
 
-    <a href="#home">
-        Home
-    </a>
+        <a href="#home">
+          {t("navbar.home")}
+        </a>
 
-    <a href="#about">
-        About
-    </a>
+        <a href="#about">
+          {t("navbar.about")}
+        </a>
 
-    <a href="#labs">
-        Labs
-    </a>
+        <a href="#labs">
+          {t("navbar.labs")}
+        </a>
 
-    <a href="#journal">
-        Journal
-    </a>
+        <a href="#journal">
+          {t("navbar.journal")}
+        </a>
 
-    <a href="#contact">
-        Contact
-    </a>
+        <a href="#contact">
+          {t("navbar.contact")}
+        </a>
 
-</nav>
+      </nav>
 
+      <LanguageSelector />
 
-    <LanguageSelector />
+    </header>
 
-</header>
-
-)
-
+  );
 }
-
 
 export default Navbar;
