@@ -1,22 +1,25 @@
 import "./Contact.css";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="contact">
 
       <div className="contact-header">
 
         <span className="contact-tag">
-          &gt; CONTACT.exe
+          {t("contact.tag")}
         </span>
 
         <h2>
-          Let's Build Something
+          {t("contact.title")}
         </h2>
 
         <p>
-          Have an idea, a project or just want
-          to talk about technology?
+          {t("contact.description")}
         </p>
 
       </div>
@@ -25,17 +28,30 @@ function Contact() {
       <div className="contact-terminal">
 
         <div className="contact-terminal-header">
-          <span>MORETECK CONNECTION</span>
-          <span>● ● ●</span>
+
+          <span>
+            MORETECK CONNECTION
+          </span>
+
+          <span>
+            ● ● ●
+          </span>
+
         </div>
 
 
         <div className="contact-terminal-body">
 
           <p className="terminal-status">
+
             <span>&gt;</span>
-            CONNECTION_STATUS:
-            <strong> ONLINE</strong>
+
+            {t("contact.status")}
+
+            <strong>
+              {t("contact.online")}
+            </strong>
+
           </p>
 
 
@@ -45,13 +61,15 @@ function Contact() {
               href="mailto:TU_EMAIL_AQUI"
               className="contact-link"
             >
+
               <span className="contact-label">
-                EMAIL
+                {t("contact.email")}
               </span>
 
               <span className="contact-value">
-                Send Message ↗
+                {t("contact.sendMessage")} ↗
               </span>
+
             </a>
 
 
@@ -61,6 +79,7 @@ function Contact() {
               rel="noopener noreferrer"
               className="contact-link"
             >
+
               <span className="contact-label">
                 GITHUB
               </span>
@@ -68,14 +87,20 @@ function Contact() {
               <span className="contact-value">
                 sebastianamor ↗
               </span>
+
             </a>
 
           </div>
 
 
           <p className="terminal-waiting">
-            &gt; awaiting_connection...
-            <span className="terminal-cursor">█</span>
+
+            {t("contact.waiting")}
+
+            <span className="terminal-cursor">
+              █
+            </span>
+
           </p>
 
         </div>

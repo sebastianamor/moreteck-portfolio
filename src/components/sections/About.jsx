@@ -1,21 +1,25 @@
 import "./About.css";
+import { useTranslation } from "react-i18next";
+
 function About() {
+
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="about">
 
       <div className="about-header">
 
         <span className="about-tag">
-          &gt; SYSTEM_PROFILE.exe
+          {t("about.tag")}
         </span>
 
         <h2>
-          About Me
+          {t("about.title")}
         </h2>
 
         <p>
-          Developer, programmer and game creator
-          exploring technology through code.
+          {t("about.description")}
         </p>
 
       </div>
@@ -30,20 +34,15 @@ function About() {
           </h3>
 
           <p>
-            My journey into technology started with
-            curiosity about how things work.
+            {t("about.paragraph1")}
           </p>
 
           <p>
-            Over time, that curiosity evolved into
-            web development, programming and game
-            development.
+            {t("about.paragraph2")}
           </p>
 
           <p>
-            Today I build web applications, experiment
-            with different technologies and create games
-            as a way to keep learning.
+            {t("about.paragraph3")}
           </p>
 
         </div>
@@ -52,30 +51,38 @@ function About() {
         <div className="about-terminal">
 
           <div className="terminal-header">
-            <span>MORETECK SYSTEM</span>
-            <span>● ● ●</span>
+
+            <span>
+              MORETECK SYSTEM
+            </span>
+
+            <span>
+              ● ● ●
+            </span>
+
           </div>
+
 
           <div className="terminal-body">
 
             <p>
-              <span>&gt;</span> SYSTEM STATUS:
-              <strong> ONLINE</strong>
+              <span>&gt;</span> {t("about.systemStatus")}
+              <strong> {t("about.online")}</strong>
             </p>
 
             <p>
-              <span>&gt;</span> WEB DEVELOPMENT:
-              <strong> ACTIVE</strong>
+              <span>&gt;</span> {t("about.webDevelopment")}
+              <strong> {t("about.active")}</strong>
             </p>
 
             <p>
-              <span>&gt;</span> GAME DEVELOPMENT:
-              <strong> ACTIVE</strong>
+              <span>&gt;</span> {t("about.gameDevelopment")}
+              <strong> {t("about.active")}</strong>
             </p>
 
             <p>
-              <span>&gt;</span> EXPERIMENTATION:
-              <strong> ACTIVE</strong>
+              <span>&gt;</span> {t("about.experimentation")}
+              <strong> {t("about.active")}</strong>
             </p>
 
           </div>

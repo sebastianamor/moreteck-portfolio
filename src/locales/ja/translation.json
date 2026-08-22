@@ -14,8 +14,10 @@
   "hero": {
     "title": "Web開発者・ゲームクリエイター",
     "description": "Webアプリケーションやゲームを制作しながら、テクノロジーの可能性を探求しています。",
-    "explore": "Labsを見る",
-    "contact": "お問い合わせ"
+    "explore": "Developer Labへ 🚀",
+    "contact": "お問い合わせ",
+    "role": "開発者 • Webクリエイター • ゲーム好き",
+  "github": "GitHub"
   },
 
   "labs": {
@@ -77,5 +79,22 @@
     "description": "プロジェクト、仕事、コラボレーションなどについてお気軽にご連絡ください。",
     "email": "メール",
     "github": "GitHub"
-  }
+  },
+
+
+"about": {
+  "tag": "> SYSTEM_PROFILE.exe",
+  "title": "私について",
+  "description": "コードを通してテクノロジーを探求する開発者、プログラマー、ゲームクリエイター。",
+  "paragraph1": "テクノロジーへの私の旅は、物事がどのように動いているのかという好奇心から始まりました。",
+  "paragraph2": "その好奇心はやがて、Web開発、プログラミング、そしてゲーム開発へと発展していきました。",
+  "paragraph3": "現在はWebアプリケーションを開発し、さまざまなテクノロジーを試しながら、学び続けるための方法としてゲームも制作しています。",
+  "systemStatus": "SYSTEM STATUS:",
+  "webDevelopment": "WEB DEVELOPMENT:",
+  "gameDevelopment": "GAME DEVELOPMENT:",
+  "experimentation": "EXPERIMENTATION:",
+  "online": "ONLINE",
+  "active": "ACTIVE"
+}
+
 }

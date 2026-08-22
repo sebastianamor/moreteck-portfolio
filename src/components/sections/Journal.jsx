@@ -1,23 +1,26 @@
 import journal from "../../data/journal";
+import { useTranslation } from "react-i18next";
 import "./Journal.css";
 
 function Journal() {
+
+  const { t } = useTranslation();
+
   return (
     <section id="journal" className="journal">
 
       <div className="journal-header">
 
         <span className="journal-tag">
-          &gt; DEV_JOURNAL.exe
+          {t("journal.tag")}
         </span>
 
         <h2>
-          Developer Journal
+          {t("journal.title")}
         </h2>
 
         <p>
-          Notes, ideas and thoughts collected
-          along the journey.
+          {t("journal.description")}
         </p>
 
       </div>

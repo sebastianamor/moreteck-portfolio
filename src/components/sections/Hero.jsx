@@ -1,7 +1,11 @@
 import Button from "../common/Button";
 import "./Hero.css";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="hero">
 
@@ -11,22 +15,26 @@ function Hero() {
           &lt; M T /&gt; ;)
         </span>
 
-        <h1>MORETECK</h1>
+        <h1>
+          MORETECK
+        </h1>
 
-        <h2>Moreira Technologies</h2>
+        <h2>
+          Moreira Technologies
+        </h2>
 
         <p>
-          Developer • Web Creator • Game Enthusiast
+          {t("hero.role")}
         </p>
 
         <div className="buttons">
 
           <Button>
-            Enter Developer Lab 🚀
+            {t("hero.explore")}
           </Button>
 
           <Button secondary>
-            GitHub
+            {t("hero.github")}
           </Button>
 
         </div>
