@@ -17,12 +17,12 @@
     "explore": "Developer Labへ 🚀",
     "contact": "お問い合わせ",
     "role": "開発者 • Webクリエイター • ゲーム好き",
-  "github": "GitHub"
+    "github": "GitHub"
   },
 
   "labs": {
     "title": "ラボを探索する",
-    "subtitle": "それぞれのラボは、私の開発者としての歩みの一部です.",
+    "subtitle": "それぞれのラボは、私の開発者としての歩みの一部です。",
 
     "web": {
       "title": "Web Lab",
@@ -70,7 +70,24 @@
   "journal": {
     "tag": "> DEV_JOURNAL.exe",
     "title": "Developer Journal",
-    "description": "テクノロジー、開発、そして日々の学びについて記録しています。"
+    "description": "テクノロジー、開発、そして日々の学びについて記録しています。",
+    "entries": {
+      "beginning": {
+        "title": "MORETECKの始まり",
+        "category": "開発",
+        "content": "今日はMORETECKを、自分の作品を紹介し、テクノロジーを実験し、開発者としての旅を記録できる個人的なスペースとして形にし始めました。"
+      },
+      "react": {
+        "title": "Reactでポートフォリオを作る",
+        "category": "Web開発",
+        "content": "ReactとViteを使うことは、現代のWebアプリケーションがどのように作られているのかを理解するための新たな一歩になっています。目的は単にポートフォリオを作ることではなく、実際に作りながら学び続けることです。"
+      },
+      "games": {
+        "title": "ゲーム開発の始まり",
+        "category": "ゲーム開発",
+        "content": "ゲーム開発は、プログラミングを探求する新しい方法になりました。PongPro、Saltador、Banana Time、そしてBrinck Odiseaは、その旅の一部です。"
+      }
+    }
   },
 
   "contact": {
@@ -81,71 +98,80 @@
     "github": "GitHub"
   },
 
-
-"about": {
-  "tag": "> SYSTEM_PROFILE.exe",
-  "title": "私について",
-  "description": "コードを通してテクノロジーを探求する開発者、プログラマー、ゲームクリエイター。",
-  "paragraph1": "テクノロジーへの私の旅は、物事がどのように動いているのかという好奇心から始まりました。",
-  "paragraph2": "その好奇心はやがて、Web開発、プログラミング、そしてゲーム開発へと発展していきました。",
-  "paragraph3": "現在はWebアプリケーションを開発し、さまざまなテクノロジーを試しながら、学び続けるための方法としてゲームも制作しています。",
-  "systemStatus": "SYSTEM STATUS:",
-  "webDevelopment": "WEB DEVELOPMENT:",
-  "gameDevelopment": "GAME DEVELOPMENT:",
-  "experimentation": "EXPERIMENTATION:",
-  "online": "ONLINE",
-  "active": "ACTIVE"
-},
-
-"projects": {
-  "status": {
-    "completed": "Completed"
+  "about": {
+    "tag": "> SYSTEM_PROFILE.exe",
+    "title": "私について",
+    "description": "コードを通してテクノロジーを探求する開発者、プログラマー、ゲームクリエイター。",
+    "paragraph1": "テクノロジーへの私の旅は、物事がどのように動いているのかという好奇心から始まりました。",
+    "paragraph2": "その好奇心はやがて、Web開発、プログラミング、そしてゲーム開発へと発展していきました。",
+    "paragraph3": "現在はWebアプリケーションを開発し、さまざまなテクノロジーを試しながら、学び続けるための方法としてゲームも制作しています。",
+    "systemStatus": "SYSTEM STATUS:",
+    "webDevelopment": "WEB DEVELOPMENT:",
+    "gameDevelopment": "GAME DEVELOPMENT:",
+    "experimentation": "EXPERIMENTATION:",
+    "online": "ONLINE",
+    "active": "ACTIVE"
   },
 
-  "academia": {
-    "title": "国際訴訟アカデミー",
-    "description": "講座や教育コンテンツを提供するWebプラットフォーム。",
-    "category": "Web Application"
+  "projects": {
+    "status": {
+      "completed": "Completed"
+    },
+    "academia": {
+      "title": "国際訴訟アカデミー",
+      "description": "講座や教育コンテンツを提供するWebプラットフォーム。",
+      "category": "Web Application"
+    },
+    "fusterland": {
+      "title": "Fusterland Airsoft",
+      "description": "Airsoft関連企業のために開発したWebサイト。",
+      "category": "Website"
+    },
+    "osaka": {
+      "title": "Osaka Tourism",
+      "description": "大阪の観光と探索をテーマにCS50のプロジェクトとして開発したWebアプリケーション。",
+      "category": "CS50 Project"
+    }
   },
 
-  "fusterland": {
-    "title": "Fusterland Airsoft",
-    "description": "Airsoft関連企業のために開発したWebサイト。",
-    "category": "Website"
+  "games": {
+    "status": {
+      "completed": "Completed",
+      "development": "開発中"
+    },
+    "pongpro": {
+      "title": "PongPro",
+      "description": "ゲーム開発への探求の一環としてLove2Dで制作したPongスタイルのゲーム。"
+    },
+    "saltador": {
+      "title": "Saltador",
+      "description": "Love2Dで制作した完成済みのジャンプゲーム。"
+    },
+    "banana": {
+      "title": "Banana Time",
+      "description": "ゲーム開発の実験の一環としてScratchで制作したゲームプロジェクト。"
+    },
+    "brinck": {
+      "title": "Brinck Odisea",
+      "description": "Love2Dで制作しているゲーム開発プロジェクト。現在も開発中です。"
+    }
   },
 
-  "osaka": {
-    "title": "Osaka Tourism",
-    "description": "大阪の観光と探索をテーマにCS50のプロジェクトとして開発したWebアプリケーション。",
-    "category": "CS50 Project"
+  "entries": {
+    "beginning": {
+      "title": "MORETECKの始まり",
+      "category": "開発",
+      "content": "今日はMORETECKを、自分の作品を紹介し、テクノロジーを実験し、開発者としての旅を記録できる個人的なスペースとして形にし始めました。"
+    },
+    "react": {
+      "title": "Reactでポートフォリオを作る",
+      "category": "Web開発",
+      "content": "ReactとViteを使うことは、現代のWebアプリケーションがどのように作られているのかを理解するための新たな一歩になっています。目的は単にポートフォリオを作ることではなく、実際に作りながら学び続けることです。"
+    },
+    "games": {
+      "title": "ゲーム開発の始まり",
+      "category": "ゲーム開発",
+      "content": "ゲーム開発は、プログラミングを探求する新しい方法になりました。PongPro、Saltador、Banana Time、そしてBrinck Odiseaは、その旅の一部です。"
+    }
   }
-},
-
-"games": {
-  "status": {
-    "completed": "Completed",
-    "development": "開発中"
-  },
-
-  "pongpro": {
-    "title": "PongPro",
-    "description": "ゲーム開発への探求の一環としてLove2Dで制作したPongスタイルのゲーム。"
-  },
-
-  "saltador": {
-    "title": "Saltador",
-    "description": "Love2Dで制作した完成済みのジャンプゲーム。"
-  },
-
-  "banana": {
-    "title": "Banana Time",
-    "description": "ゲーム開発の実験の一環としてScratchで制作したゲームプロジェクト。"
-  },
-
-  "brinck": {
-    "title": "Brinck Odisea",
-    "description": "Love2Dで制作しているゲーム開発プロジェクト。現在も開発中です。"
-  }
-}
-
 }

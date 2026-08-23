@@ -1,21 +1,24 @@
 import "./Button.css";
 
+function Button({
+  children,
+  secondary = false,
+  onClick
+}) {
 
-function Button({children, secondary=false}){
-
-return (
-
-<button 
-className={secondary ? "mt-button secondary" : "mt-button"}
->
-
-{children}
-
-</button>
-
-);
+  return (
+    <button
+      className={
+        secondary
+          ? "mt-button secondary"
+          : "mt-button"
+      }
+      onClick={onClick}
+    >
+      {children}
+    </button>
+  );
 
 }
-
 
 export default Button;

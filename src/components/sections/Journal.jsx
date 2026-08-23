@@ -31,44 +31,41 @@ function Journal() {
         {journal.map((entry) => (
 
           <article
-            className="journal-entry"
-            key={entry.id}
-          >
+  className="journal-entry"
+  key={entry.id}
+>
 
-            <div className="journal-entry-top">
+  <div className="journal-entry-top">
 
-              <span className="journal-date">
-                {entry.date}
-              </span>
+    <span className="journal-date">
+      {entry.date}
+    </span>
 
-              <span className="journal-category">
-                {entry.category}
-              </span>
+    <span className="journal-category">
+      {t(entry.categoryKey)}
+    </span>
 
-            </div>
+  </div>
 
+  <h3>
+    {t(entry.titleKey)}
+  </h3>
 
-            <h3>
-              {entry.title}
-            </h3>
+  <p>
+    {t(entry.contentKey)}
+  </p>
 
+  <div className="journal-tags">
 
-            <p>
-              {entry.content}
-            </p>
+    {entry.tags.map((tag) => (
+      <span key={tag}>
+        #{tag}
+      </span>
+    ))}
 
+  </div>
 
-            <div className="journal-tags">
-
-              {entry.tags.map((tag) => (
-                <span key={tag}>
-                  #{tag}
-                </span>
-              ))}
-
-            </div>
-
-          </article>
+</article>
 
         ))}
 

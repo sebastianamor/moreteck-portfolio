@@ -6,6 +6,12 @@ function Hero() {
 
   const { t } = useTranslation();
 
+  const goToLabs = () => {
+    document.getElementById("labs")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section id="home" className="hero">
 
@@ -29,11 +35,20 @@ function Hero() {
 
         <div className="buttons">
 
-          <Button>
+          <Button onClick={goToLabs}>
             {t("hero.explore")}
           </Button>
 
-          <Button secondary>
+          <Button
+            secondary
+            onClick={() =>
+              window.open(
+                "https://github.com/sebastianamor",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+          >
             {t("hero.github")}
           </Button>
 
