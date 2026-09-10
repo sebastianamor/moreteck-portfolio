@@ -12,9 +12,9 @@
 }
 
 .hero-logo {
-  font-family: monospace;
-  font-size: 28px;
+  font-family: "JetBrains Mono", monospace;
   color: #38bdf8;
+  font-weight: 600;
 }
 
 .hero h1 {

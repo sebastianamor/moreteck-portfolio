@@ -24,7 +24,15 @@ const journal = [
     categoryKey: "journal.entries.games.category",
     contentKey: "journal.entries.games.content",
     tags: ["Love2D", "Scratch", "Games"]
-  }
+  }, 
+  {
+  id: 4,
+    date: "2026-09-10",
+    titleKey: "journal.entries.B.title",
+    categoryKey: "journal.entries.B.category",
+    contentKey: "journal.entries.B.content",
+    tags: ["Love2D", "Scratch", "Games"]
+     }
 ];
 
 export default journal;

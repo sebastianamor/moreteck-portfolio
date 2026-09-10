@@ -83,7 +83,11 @@
         "title": "Game Development Begins",
         "category": "Game Development",
         "content": "Game development has become another way for me to explore programming. PongPro, Saltador, Banana Time and Brinck Odisea are part of that journey."
-      }
+      },
+      "B": {
+        "title": "BREAKOUT ODYSSEY demo is out now!",
+        "category": "Game Development",
+"content": "After a couple of months developing this video game, which I called Breakout Odyssey, I finally have the demo ready. It features 2 different worlds: one set in dark, gloomy tombs and another in a cyberpunk future. The demo is free on https://itch.io/. You can download it and check out the page here: https://moreteck-technologies.itch.io/breakout-odyssey"      }
     }
   },
 

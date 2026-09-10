@@ -83,7 +83,13 @@
         "title": "Comienza el Desarrollo de Videojuegos",
         "category": "Desarrollo de Videojuegos",
         "content": "El desarrollo de videojuegos se ha convertido en otra forma de explorar la programación. PongPro, Saltador, Banana Time y Brinck Odisea forman parte de ese recorrido."
-      }
+      },
+      "B": {
+        "title": " Esta listo el demo de BREAKOUT ODYSSEY",
+        "category": "Desarrollo de Videojuegos",
+"content": "Después de un par de meses desarrollando este videojuego, al que llamé Breakout Odyssey, ya tengo listo el demo, que cuenta con 2 mundos diferentes: uno en unas tenebrosas tumbas y otro en un futuro cyberpunk. El demo es gratis en https://itch.io/. Pueden descargarlo y ver la página aquí: https://moreteck-technologies.itch.io/breakout-odyssey"      }
+
+
     }
   },
 
@@ -171,6 +177,11 @@
     "games": {
       "title": "Comienza el Desarrollo de Videojuegos",
       "category": "Desarrollo de Videojuegos",
+      "content": "El desarrollo de videojuegos se ha convertido en otra forma de explorar la programación. PongPro, Saltador, Banana Time y Brinck Odisea forman parte de ese recorrido."
+    },
+    "g": {
+      "title": "Comienza",
+      "category": "Desarrollo ",
       "content": "El desarrollo de videojuegos se ha convertido en otra forma de explorar la programación. PongPro, Saltador, Banana Time y Brinck Odisea forman parte de ese recorrido."
     }
   }

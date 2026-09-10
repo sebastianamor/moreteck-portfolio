@@ -86,8 +86,13 @@
         "title": "ゲーム開発の始まり",
         "category": "ゲーム開発",
         "content": "ゲーム開発は、プログラミングを探求する新しい方法になりました。PongPro、Saltador、Banana Time、そしてBrinck Odiseaは、その旅の一部です。"
-      }
+      },
+      "B": {
+        "title": "『BREAKOUT ODYSSEY』のデモが公開されました！",
+        "category": "Game Development",
+    "content": "このビデオゲームを数か月かけて開発し、『Breakout Odyssey』と名付けました。ようやくデモが完成しました。デモには2つの異なるワールドがあります。1つは薄暗い墓場、もう1つはサイバーパンクな未来です。デモは https://itch.io/ で無料で公開しています。こちらからダウンロードして、ページもご覧いただけます：https://moreteck-technologies.itch.io/breakout-odyssey"
     }
+     }
   },
 
   "contact": {
@@ -174,4 +179,4 @@
       "content": "ゲーム開発は、プログラミングを探求する新しい方法になりました。PongPro、Saltador、Banana Time、そしてBrinck Odiseaは、その旅の一部です。"
     }
   }
-}
+  }
