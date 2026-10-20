@@ -32,7 +32,7 @@ const projects = [
     statusKey: "projects.status.completed",
     link: "#",
     github:
-      "https://github.com/sebastianamor/osaka-turims-/tree/main/osaka_tourism",
+      "https://sebastianamor.github.io/osaka-turim-react/",
     comingSoon: false
   }
 ];

@@ -41,9 +41,9 @@ const games = [
     descriptionKey: "games.brinck.description",
     technology: "Love2D",
     year: "2026",
-    statusKey: "games.status.development",
+   statusKey: "games.status.completed",
     image: `${import.meta.env.BASE_URL}images/games/brinck-odisea.png`,
-    link: "#",
+    link: "https://moreteck-technologies.itch.io/breakout-odyssey",
     github: "#"
   }
 ];
